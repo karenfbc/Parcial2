@@ -6,6 +6,7 @@ import { AnimeComponent } from './anime.component';
   imports: [
     CommonModule
   ],
-  declarations: [AnimeComponent]
+  declarations: [AnimeComponent],
+  exports: [AnimeComponent]
 })
 export class AnimeModule { }
